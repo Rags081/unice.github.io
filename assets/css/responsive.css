@@ -1,0 +1,114 @@
+@media (max-width: 1500px) {}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    /*header*/
+    button.unice-hamburger-menu.navbar-toggler {
+        background: #fff;
+    }
+    .unice-navbar-menu {
+        background-image: linear-gradient(to bottom, rgb(30 30 98) 0%, rgb(199 75 199) 100%);
+    }
+    .unice-navbar-menu li {
+        text-align: center;
+        padding: 15px;
+    }
+    .unice-navbar-menu li a {
+        font-size: 16px;
+    }
+    /*Banner*/
+    .banner {
+        padding-top: 15%;
+    }
+    .start-now-btn {
+        width: 60%;
+    }
+    /*Quick Solution*/
+    .unice-quick-solution-image img {
+        position: unset;
+        transform: none;
+        padding-top: 50%;
+    }
+    /*Our Feature*/
+    .unice-sopport-service {
+        margin-top: 30px;
+    }
+    /*Screen Shot*/
+    /* .unice-screeshot-section .owl-item.active.center .item img {
+        width: 50%;
+        margin: auto;
+    }
+    .unice-screenshot .owl-item.active.center .item:before {
+        width: 60%;
+        left: 142px;
+    }*/
+    /*Pricing*/
+    .price-margin {
+        margin-left: 16.666667%;
+    }
+    /*Testimonial*/
+    #unice-testimonial .owl-nav .owl-prev {
+        left: -50px;
+    }
+    #unice-testimonial .owl-nav .owl-next {
+        right: -50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .m-text-center {
+        text-align: center;
+    }
+    /*Banner*/
+    section#unice-home {
+        height: 110vh;
+    }
+    .unice-banner-left-container {
+        position: relative;
+        top: 40%;
+        transform: none;
+    }
+    .start-now-btn {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .banner-right-container img {
+        margin-top: 30%;
+    }
+    /*Quick Solution*/
+    .unice-solution-icons {
+        width: 20%;
+    }
+    .unice-quick-solution-image img {
+        padding-top: 15%;
+    }
+    /*Our Feature*/
+    .unice-project-analysis {
+        margin-top: 30px;
+    }
+    /*Pricing*/
+    .price-margin {
+        margin-left: 0;
+    }
+    /*Testimonial*/
+    .unice-testimonial-msg img {
+        width: 50% !important;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {}
+
+@media (max-width:460px) {}
+
+@media (max-width:360px) {
+    .unice-banner-left-container {
+        top: 20%;
+    }
+    .banner-right-container img {
+        margin-top: 5%;
+    }
+}
